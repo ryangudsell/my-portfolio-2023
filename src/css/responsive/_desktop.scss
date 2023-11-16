@@ -1,0 +1,135 @@
+@media screen and (min-width:950px) {
+
+// General Styles
+h1 {font-size: 48px; font-weight: 600;}
+h2 {font-size: $mobile-header-size; font-weight: 600;}
+h3, p, a, button, li, span {font-size: $body-text-size;}
+h3 {font-size: $subheader-size;}
+
+// Header / Nav
+header {
+    width: 100%;
+    height: 80px;
+    border: 2px solid $off-black;
+    background: linear-gradient(to right, $tan 30%, $tan-light 75%);
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    #nav-bar {
+        div {
+            span {
+                top: 38px;
+
+                font-size: 16px;
+                letter-spacing: 2.5px;
+            }
+        }
+    }
+}
+
+// ---- Home ----
+
+main {
+    // All articles will be pushed toward the center of the screen
+    article {
+        padding: 0 30px;
+    }
+}
+
+#home-landing {
+    #cta {
+        p {
+            width: 75%;
+        }
+    }
+}
+
+#home-projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .project-card {
+        background-image: var(--project-bg-color);
+        background-color: var(--project-bg-color);
+    }
+
+    .project-card:first-child, .project-card:nth-child(2) {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0) 0%, 
+            var(--project-bg-color) 2%, 
+            var(--project-bg-color) 100%
+        );
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .project-card:last-child, .project-card:nth-last-child(2) {
+        background-image: linear-gradient(
+            var(--project-bg-color) 0%, 
+            var(--project-bg-color) 98%, 
+            rgba(0, 0, 0, 0) 100%
+        );
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    &.odd-length {
+
+        article:last-child {
+            grid-column: 1/3;
+        }
+
+        .project-card:nth-last-child(2) {
+            background-image: var(--project-bg-color);
+            background-color: var(--project-bg-color);
+        }
+
+        .project-card:nth-child(2) {
+            background-image: linear-gradient(
+            rgba(0, 0, 0, 0) 0%, 
+            var(--project-bg-color) 2%, 
+            var(--project-bg-color) 100%
+            ) !important;
+            background-color: rgba(0, 0, 0, 0);
+        }
+    }
+}
+
+// Contact Section
+#contact-container {
+    grid-template-columns: 50% 50%;
+}
+
+#about-page {
+    padding-top: 80px;
+    
+    section {padding: 0 20px;}
+
+    h1 {
+        margin: 20px 10px;
+    }
+
+    .about-landing-grid {
+        margin-top: 20vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #about, #skills {
+        margin: 0;
+    }
+
+    #experience {
+        margin: 20vh 0;
+    }
+}
+
+#contact-page {
+    padding-top: 80px;
+}
+
+#project-page {
+    padding-top: 80px;
+}
+
+}

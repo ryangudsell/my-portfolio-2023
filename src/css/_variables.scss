@@ -1,0 +1,30 @@
+$tan: #F5E4BC;
+$tan-light: #F8EBCC;
+$tan-lighter: #FFFDD0;
+$brass: #D7B974;
+$off-black: #29281C;
+
+$body-text-size: 18px;
+$mobile-body-size: 16px;
+
+$subheader-size: 24px;
+$mobile-subheader-size: 20px;
+
+$header-size: 36px;
+$mobile-header-size: 32px;
+
+@mixin mobile-input {
+    font-family: Cabin, Arial, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    padding: 2px 5px;
+}
+
+@mixin mobile-button {
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px 8px;
+    padding-top: 7px;
+}

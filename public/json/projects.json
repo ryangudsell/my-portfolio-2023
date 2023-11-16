@@ -1,0 +1,63 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "Boys On Tour",
+            "excerpt": "Explore New Zealand's Wonders with Boys On Tour.",
+            "description": "Boys On Tour is a passion project I brought to life for my friends, the aim was to create a webpage where we can catalog desired accommodations, activities, and landmarks around New Zealand for future personal use. The target audience for this website is Unisex Young Adults aiming to find awesome places to have a vacation or road trip. This project was notable as it was the first time I used large amounts of JavaScript Object data before discovering json files. The project also uses MapBox API to mark the noted locations at their exact points in the country map.",
+            "technologies": [
+                "MapBox API is used to create a map and real-life location data for each entry.",
+                "Animate On Scroll is used to create a fade-in effect when scrolling down the page, making the load times seamless and appearing as if the entries are appearing out of thin air and not popping in.",
+                "Bootstrap Icons was used to implement icons for accessibility and recognition in terms of nav bars, buttons, and other icons."
+            ],
+            "backgroundColor": "#d6faf6",
+            "textColor": "#000 ",
+            "reverseTextColor": "#d6faf6",
+            "featuredImage": "./img/boysOnTour/featuredimage.jpg",
+            "images": [
+                "./img/boysOnTour/mockup1.jpg",
+                "./img/boysOnTour/mockup2.jpg",
+                "./img/boysOnTour/mockup3.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "FigureHead",
+            "excerpt": "Elevating the Marketplace Experience: Collaborative React Project 'FigureHead' - Empowering Fans of Film, TV, Games, and Comics.",
+            "description": "FigureHead was a group project I achieved with 3 classmates while studying the ‘React’ framework. This provided a different challenge compared to other projects as working in a team in a coding project is much more difficult to get used to compared to teamwork in other fields. The target audience in this project was Teens - Adults who are interested in film, tv, games, and comics. FigureHead’s aim was to create a marketplace that consumers could use to trade and exchange figurines from their favorite media and franchises, they would be able to list, add, edit, and delete listings for different projects. This project was my second project where I used React to make a CRUD (Create, Read, Update, Delete) functionality application while also using GitHub",
+            "technologies": [
+                "React framework and Node.js were used to create a full-stack application that supports custom frontend, backend, and package downloads to increase the page's capabilities.",
+                "A variety of node/npm packages were used in my design, a full write-up on these packages can be seen on my group's repository."
+            ],
+            "backgroundColor": "#32353e",
+            "textColor": "#fffdd0 ",
+            "reverseTextColor": "#fffdd0",
+            "featuredImage": "./img/figureHead/featuredimage.jpg",
+            "images": [
+                "./img/figureHead/mockup1.jpg",
+                "./img/figureHead/mockup2.jpg",
+                "./img/figureHead/mockup3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Rent A Ride",
+            "excerpt": "Seamless Journey Planning: JavaScript Project - Renting Custom Vehicles for New Zealand Adventures.",
+            "description": "This project was for my JavaScript Intro assessment, this project’s purpose was to be able to rent and supply specific vehicles for journeying around New Zealand to customers based on the time of the trip, the distance of the trip, and the number of people meant to travel in the vehicle. I expanded my experience with Mapbox in this project by using the built-in directions feature, akin to Google Maps, to translate the time and distance the trip will take and calculate costs accordingly (with fuel and other costs in mind).",
+            "technologies": [
+                "Mapbox was used in this project to visually show the users the start and end of their journey, with all the roads and towns in mind to correctly calculate fuel cost, travel time, and total road distance.",
+                "Google Fonts was used in this project to source the main font 'Lato' and all of its styles in order to create variation between different text types while keeping as much consistency as possible.",
+                "Bootstrap Icons were used as well to provide icons where I believed it would best serve the users, visually, in terms of accessibility and to improve the user flow of the design."
+            ],
+            "backgroundColor": "#fafafa",
+            "textColor": "#000",
+            "reverseTextColor": "#fafafa",
+            "featuredImage": "./img/rentARide/featuredimage.jpg",
+            "images": [
+                "./img/rentARide/mockup1.jpg",
+                "./img/rentARide/mockup2.jpg",
+                "./img/rentARide/mockup3.jpg"
+            ]
+        }
+    ]
+}
