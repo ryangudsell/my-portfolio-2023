@@ -58,6 +58,26 @@
                 "./img/rentARide/mockup2.jpg",
                 "./img/rentARide/mockup3.jpg"
             ]
+        },
+        {
+            "id": 3,
+            "name": "Peter's Auto Services",
+            "excerpt": "Driving Innovation not just on the road - Peter's Auto Services Website.",
+            "description": "This project is my penultimate assessment, allowing me to create a professional, clean design while stretching my knowledge of user experience and functional design. This project uses WordPress and React to create a functional frontend and backend for a real-life client 'Peters Auto Services' for this fictional scenario.",
+            "technologies": [
+                "WooCommerce was implemented in this project to manage and showcase services, displayed as 'Quotes' available for purchase.",
+                "WordPress Customizer API was used to allow the client to change theoretically the entire style, tone, mood and theme of the website via Colours and Font Families.",
+                "Custom Post Types were used to allow me to create readable and easily understood backend oragnization, allowing for seamless administration work and maintenance."
+            ],
+            "backgroundColor": "#6cade9",
+            "textColor": "#000000",
+            "reverseTextColor": "#6cade9",
+            "featuredImage": "./img/petersAutoServices/featuredimage.jpg",
+            "images": [
+                "./img/petersAutoServices/mockup1.jpg",
+                "./img/petersAutoServices/mockup2.jpg",
+                "./img/petersAutoServices/mockup3.jpg"
+            ]
         }
     ]
 }
