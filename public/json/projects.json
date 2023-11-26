@@ -62,6 +62,7 @@
         {
             "id": 3,
             "name": "Peter's Auto Services",
+            "link": "https://peters-auto-services.vercel.app/",
             "excerpt": "Driving Innovation not just on the road - Peter's Auto Services Website.",
             "description": "This project is my penultimate assessment, allowing me to create a professional, clean design while stretching my knowledge of user experience and functional design. This project uses WordPress and React to create a functional frontend and backend for a real-life client 'Peters Auto Services' for this fictional scenario.",
             "technologies": [

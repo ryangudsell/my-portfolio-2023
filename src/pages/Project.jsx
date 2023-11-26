@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 
 const Project = () => {
   const [project, setProject] = useState(null)
@@ -30,7 +30,10 @@ const Project = () => {
       }}>
       {!project ? <>Loading Project...</> : 
       <>
-        <h1>{project.name}</h1>
+        <h1>
+          {project.name}<br />
+          {project?.link && <Link to={`${project.link}`}>View this site</Link>}
+        </h1>
         <div><img src={`${project.featuredImage}`} alt={`Featured Image showing the ${project.name} Web App`} /></div>
         <p>{project.description}</p>
         <h3>Technologies Used:</h3>
